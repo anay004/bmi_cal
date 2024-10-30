@@ -188,13 +188,13 @@ class Result extends StatelessWidget {
   String descriptionText(String result) {
     switch (result) {
       case "Underweight":
-        return "You might need to gain some weight.";
+        return "Fu marle to ure jaba!!.";
       case "Normal Weight":
-        return "You're in a healthy weight range!";
+        return "Ekdom jhakkas! Chaliyee jaw";
       case "Overweight":
-        return "Consider lifestyle changes to reach a healthier weight.";
+        return "Somoy thakte maintain kore felo.";
       case "Obese":
-        return "Seek support for weight management.";
+        return "Nijer sorir dekhecho koto mota hoyecho?.";
       default:
         return "";
     }
