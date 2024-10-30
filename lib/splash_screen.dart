@@ -35,6 +35,10 @@ class SplashScreen extends StatelessWidget {
               color: Colors.cyanAccent,
             ),
           ),
+          CircularProgressIndicator(
+            color: Colors.white,
+
+          ),
         ],
       ),
       backgroundColor: Colors.blueGrey,
